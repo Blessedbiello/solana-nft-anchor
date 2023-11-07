@@ -11,8 +11,9 @@ solana_nft_anchor = "C8Rd2i4EFiKmJxAfucJvavFU7QBwK8Vb9MQCAxEabB5a"
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "devnet"
 wallet = "/home/bprime/.config/solana/id.json"
+
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
